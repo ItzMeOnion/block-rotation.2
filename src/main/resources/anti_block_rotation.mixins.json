@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.onxon.antiblockrotation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InGameHudMixin",
+    "TeamMixin",
+    "ScoreboardObjectiveMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "anti_block_rotation",
+  "version": "${version}",
+  "name": "Anti block rotation",
+  "description": "Makes the side-textures of blocks the same. For donutsmp",
+  "authors": ["Onxon"],
+  "license": "MIT",
+  "icon": "assets/anti_block_rotation/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.onxon.antiblockrotation.AntiBlockRotationClient"]
+  },
+  "mixins": ["anti_block_rotation.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
